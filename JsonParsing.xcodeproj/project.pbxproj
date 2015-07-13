@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38533FFC1B53E1AB00142A2A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 38533FFB1B53E1AB00142A2A /* .gitignore */; };
 		38B80EF61B46A4AF00B24A07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B80EF51B46A4AF00B24A07 /* main.m */; };
 		38B80EF91B46A4AF00B24A07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B80EF81B46A4AF00B24A07 /* AppDelegate.m */; };
 		38B80EFC1B46A4AF00B24A07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B80EFB1B46A4AF00B24A07 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		38B80F011B46A4AF00B24A07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B80F001B46A4AF00B24A07 /* Images.xcassets */; };
 		38B80F041B46A4AF00B24A07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38B80F021B46A4AF00B24A07 /* LaunchScreen.xib */; };
 		38B80F101B46A4AF00B24A07 /* JsonParsingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B80F0F1B46A4AF00B24A07 /* JsonParsingTests.m */; };
+		38B80F1C1B46A4F800B24A07 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 38B80F1B1B46A4F800B24A07 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38533FFB1B53E1AB00142A2A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		38B80EF01B46A4AE00B24A07 /* JsonParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B80EF41B46A4AF00B24A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B80EF51B46A4AF00B24A07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,7 @@
 		38B80F091B46A4AF00B24A07 /* JsonParsingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParsingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38B80F0E1B46A4AF00B24A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B80F0F1B46A4AF00B24A07 /* JsonParsingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonParsingTests.m; sourceTree = "<group>"; };
+		38B80F1B1B46A4F800B24A07 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		38B80EE71B46A4AE00B24A07 = {
 			isa = PBXGroup;
 			children = (
+				38B80F1B1B46A4F800B24A07 /* data.json */,
+				38533FFB1B53E1AB00142A2A /* .gitignore */,
 				38B80EF21B46A4AE00B24A07 /* JsonParsing */,
 				38B80F0C1B46A4AF00B24A07 /* JsonParsingTests */,
 				38B80EF11B46A4AE00B24A07 /* Products */,
@@ -199,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38533FFC1B53E1AB00142A2A /* .gitignore in Resources */,
 				38B80EFF1B46A4AF00B24A07 /* Main.storyboard in Resources */,
 				38B80F041B46A4AF00B24A07 /* LaunchScreen.xib in Resources */,
 				38B80F011B46A4AF00B24A07 /* Images.xcassets in Resources */,
+				38B80F1C1B46A4F800B24A07 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +420,7 @@
 				38B80F151B46A4AF00B24A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38B80F161B46A4AF00B24A07 /* Build configuration list for PBXNativeTarget "JsonParsingTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				38B80F181B46A4AF00B24A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
